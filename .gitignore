@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+
+# Local Database
+qdrant/
+qdrant_storage/
+uploads/
+
+# Environments
+.venv/
+venv/
+__pycache__/
+
+# Private Keys
+.env
+
+# OS specific
+.python-version
