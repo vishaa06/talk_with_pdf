@@ -5,6 +5,7 @@ A functional Retrieval-Augmented Generation (RAG) pipeline that allows users to 
 ![App Screenshot](app_screenshot.png)
 
 ## 🛠️ Tech Stack
+- **LLM Provider:** OpenRouter (Accessing OpenAI/Anthropic models)
 - **LLM Orchestration:** Inngest (Background task management)
 - **Vector Database:** Qdrant (Local semantic storage)
 - **Frontend:** Streamlit
@@ -34,7 +35,7 @@ streamlit run streamlit_app.py
 
 ## 🔑 Environment Variables
 Create a `.env` file in the root directory and add your keys:
-OPENAI_API_KEY=your_key_here
+OPENROUTER_API_KEY=your_openrouter_key_here
 QDRANT_URL=http://localhost:6333
 
 Prerequisites
