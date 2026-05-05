@@ -2,6 +2,8 @@
 
 A functional Retrieval-Augmented Generation (RAG) pipeline that allows users to upload PDFs and have grounded conversations with their data.
 
+![App Screenshot](app_screenshot.png)
+
 ## 🛠️ Tech Stack
 - **LLM Orchestration:** Inngest (Background task management)
 - **Vector Database:** Qdrant (Local semantic storage)
